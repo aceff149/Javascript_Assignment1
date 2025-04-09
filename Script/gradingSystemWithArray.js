@@ -1,30 +1,21 @@
-let colors = ["green", "blue", "pink"]
-console.log (colors[0])
-console.log (colors)
+function studentGrading{studentName,studentScore}
+// 90-100.         A
+// 80-89.          B
+// 70-79.          C
 
-let person = {
-    Name: "Allie Efferson",
-    Score: 35,
-    isEnrolled: "Software Engineer"
-}
+    let studentGrade 
 
-let students = [
-    {Name: "Justin Hoffman", 
-    Score: 82, 
-    isEnrolled: true},
-    {Name: "Jane Smith", 
-    Score: 93, 
-    isEnrolled: false},
-    {Name: "Daniel Brown", 
-    Score: 77, 
-    isEnrolled: true},
-]
+    if{(studentScore >= 90)&&{studenScore<=100}}{
+    grade = "A"
 
-console.log (students)
-console.log (students[0].Name)
-console.log (students[1].Age)
-console.log (students[2].isEnrolled)
+    }
+    else if(studentScore >= 80){B}
+    else if(studentScore >= 70){C}
 
-console.log(typeof students[0].Name)
-console.log(typeof students[0].Age)
-console.log(typeof students[0].isEnrolled)
+    console.log {"Hello ${studentName}, your score is ${studentScore} and your grade is B."}
+
+studentGrading("Allie Efferson", 85)
+studentGrading("Jane Smith", 93)
+studentGrading("Daniel Brown", 77)
+studentGrading("Justin Hoffman", 82)
+
