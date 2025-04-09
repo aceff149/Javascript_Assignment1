@@ -6,12 +6,12 @@ function studentGrading {studentName, studentScore} (studentName, studentScore) 
     let studentGrade 
 
 
-    debugger:
-    if((studentScore >= 90) && (studentScore<=100)){grade = "A"}
-    else if((studentScore >= 80) && (studentScore<=89)){B}
-    else if((studentScore >= 70) && (studentScore<=79)){C}
+debugger:
+if((studentScore >= 90) && (studentScore<=100)){grade = "A"}
+else if((studentScore >= 80) && (studentScore<=89)){B}
+else if((studentScore >= 70) && (studentScore<=79)){C}
 
-    console.log {"Hello ${studentName}, your score is ${studentScore} and your grade is B."}
+console.log {"Hello ${studentName}, your score is ${studentScore} and your grade is B."}
 
 studentGrading("Allie Efferson", 85)
 studentGrading("Jane Smith", 93)
